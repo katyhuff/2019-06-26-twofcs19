@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+                <title>Welcome</title>
+
+                <meta name="description" content="
+                A discussion of Data Science in Nuclear Engineering
+                ">
+		<meta name="author" content="Kathryn Huff">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                   <section>
+                              <h2>Welcome</h2> 
+                                      <h4>to the 4th Annual</h4>
+                                      <h4>Technical Workshop on Fuel Cycle Simulation</h4>
+                                      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Illinois_Block_I.png" height="200">
+                                        <h4>June 26-28, 2019</h4>
+                                </section>
+                    <section>
+                    <section data-background-iframe="https://arfc.github.io/twofcs19" data-background-interactive>
+                    </section>
+                    <section data-background-iframe="https://arfc.github.io/twofcs19/about/organizers" data-background-interactive>
+                    </section>
+                    <section data-background-iframe="https://arfc.github.io/twofcs19/program/schedule" data-background-interactive>
+                    </section>
+                    <section data-background-iframe="https://arfc.github.io/twofcs19/attend/location" data-background-interactive>
+                    </section>
+                    </section>
+				<section>
+					<h1>THE END</h1>
+                                        <h3>Katy Huff </h3>
+                                        <a href="https://katyhuff.github.io/2019-06-26-twofcs19">katyhuff.github.io/2019-06-26-twofcs19</a> 
+
+<br/>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img 
+  alt="Creative Commons License" style="border-width:0" 
+  src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span 
+  xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Welcome to TWoFCS 2019</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://katyhuff.github.io" property="cc:attributionName" rel="cc:attributionURL">Kathryn Huff</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://katyhuff.github.io/2019-06-26-twofcs19" rel="dct:source">http://katyhuff.github.io/2019-06-26-twofcs19</a>.  
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                                        { src: 'plugin/math/math.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
